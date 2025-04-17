@@ -1,4 +1,6 @@
 # Project Notes
+To run container on Jetson:
+``` jetson-containers run --volume ~/csci6461_cuda:/workspace $(autotag l4t-pytorch)```
 
 ## Part 1: Jetson Orin Nano: basic CUDA kernel experiment vs PyTorch CPU+GPU
 - explain how the cuda kernel works
