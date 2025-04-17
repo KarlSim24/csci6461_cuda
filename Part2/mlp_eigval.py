@@ -11,9 +11,9 @@ np.random.seed(42)
 matrix_size = 4 # (4x4 symmetric matrix (simulates SE(3)))
 input_dim = matrix_size * matrix_size
 epochs = 100
-batch_size = 32
+batch_size = 64
 learning_rate = 1e-3
-num_batches = 10
+num_batches = 100
 
 # Function to create a batch of symmetric matrices and their largest eigenvalue
 def generate_batch(batch_size, N):
