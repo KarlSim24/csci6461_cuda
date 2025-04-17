@@ -8,9 +8,9 @@ import time
 np.random.seed(42)
 
 # Config
-matrix_size = 4 # (4x4 symmetric matrix (simulates SE(3)))
+matrix_size = 16 # (4x4 symmetric matrix (simulates SE(3)))
 input_dim = matrix_size * matrix_size
-epochs = 100
+epochs = 10
 batch_size = 64
 learning_rate = 1e-3
 num_batches = 100

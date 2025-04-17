@@ -5,7 +5,7 @@ import time
 
 # Setup
 device = torch.device("cuda")
-matrix_size = 4
+matrix_size = 16
 input_dim = matrix_size * matrix_size
 
 # Load model
