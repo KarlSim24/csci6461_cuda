@@ -14,7 +14,7 @@ model.load_state_dict(torch.load("mlp_eigenvalue_model.pth"))
 model.eval()
 
 # Example input for conversion
-x_dummy = torch.randn(1, input_dim).to(device)
+x_dummy = torch.randn(100, input_dim).to(device)
 
 # Convert to TensorRT
 model_trt = torch2trt(model, [x_dummy], fp16_mode=True)
